@@ -9,6 +9,7 @@ module System.Console.Shell.Types where
 import qualified Control.Exception as Ex
 
 import Control.Monad.Reader
+import Control.Monad.Fix ( MonadFix )
 import Control.Monad.State
 
 import System.Console.Shell.PPrint
