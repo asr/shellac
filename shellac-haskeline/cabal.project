@@ -1,6 +1,0 @@
-packages: *.cabal
-
-source-repository-package
-  type: git
-  location: https://github.com/asr/shellac.git
-  tag: 77d9b72d3273f49edb0f4888e12d5f6604b93371

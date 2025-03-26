@@ -1,12 +1,12 @@
 {-
- - 
+ -
  -  Copyright 2005-2007, Robert Dockins.
- -  
+ -
  -}
 
 -- | This module defines the Shellac interface for shell backends.  A shell backend
 --   is required to provide sensible implementations for 'outputString', 'flushOutput',
---   'getSingleChar', 'getInput', and 'getWordBreakChars'.  All other operations may 
+--   'getSingleChar', 'getInput', and 'getWordBreakChars'.  All other operations may
 --   be noops (however, they must not denote bottom!).
 --
 --   This module is intended for use by backend implementers.  It is not intended to
@@ -36,7 +36,7 @@ module System.Console.Shell.Backend
 --   \"complete-as-far-as-possible\" behavior, \'newWord\' should be the longest common
 --   prefix of all words in \'completions\'.
 
-type CompletionFunction = (String,String,String) 
+type CompletionFunction = (String,String,String)
                         -> IO (Maybe (String, [String]))
 
 -- | A datatype representing ouput to be printed.  The different categories of
@@ -59,7 +59,7 @@ data ShellBackend bst
    = ShBackend
      { initBackend                    :: IO bst
          -- ^ Provides the backend a way to perform any necessary initialization
-	 --   before the shell starts.  This function is called once for each
+         --   before the shell starts.  This function is called once for each
          --   shell instance.  The generated value will be passed back in to each call of the
          --   other methods in this record.
 
