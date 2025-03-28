@@ -1,7 +1,7 @@
 {-
- - 
+ -
  -  Copyright 2005-2007, Robert Dockins.
- -  
+ -
  -}
 
 
@@ -16,7 +16,7 @@ module System.Console.Shell.Backend.Basic
 ) where
 
 import System.IO   ( stdout, stderr, stdin, hFlush, hPutStr, hPutStrLn
-	           , hGetLine, hGetChar, hGetBuffering, hSetBuffering
+                   , hGetLine, hGetChar, hGetBuffering, hSetBuffering
                    , BufferMode(..)
                    )
 import qualified Control.Exception as Ex

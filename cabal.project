@@ -1,1 +1,6 @@
 packages: *.cabal shellac-haskeline/
+
+source-repository-package
+  type: git
+  location: https://github.com/haskell/haskeline
+  tag: 1ef56b16d3ed1f063211982668329d9e3113fd5b

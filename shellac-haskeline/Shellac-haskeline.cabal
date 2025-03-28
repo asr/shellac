@@ -14,7 +14,7 @@ Description:    This module provides a backend for Shellac using the Haskeline l
                 history features.
 Stability:      Experimental
 
-tested-with: GHC == { 9.10.1 }
+tested-with: GHC == { 9.12.2 }
 
 Source-repository head
   type:     git

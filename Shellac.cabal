@@ -21,7 +21,7 @@ Description:
   and still enjoy the advanced features that may be available from a
   powerful line editing package like readline.
 
-tested-with: GHC == { 9.10.1 }
+tested-with: GHC == { 9.12.2 }
 
 Source-repository head
   type:     git
